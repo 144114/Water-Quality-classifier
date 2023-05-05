@@ -15,9 +15,9 @@ The datasets are too large to upload via github
 8. Disaggregated Data 
 9. Aggragated Data
 
-Country Codes         : https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Glossary:Country_codes
-EQR Definition        : https://www.researchgate.net/publication/236586038_WATER_FRAMEWORK_DIRECTIVE__Marine_Ecological_Tools_for_Reference_Intercalibration_and_Classifi_cation_METRIC/figures?lo=1
-EQR Definition (Full) : https://publications.jrc.ec.europa.eu/repository/bitstream/JRC36757/6757%20-%20Deliverable_10_1%200recc.pdf
+Country Codes         : https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Glossary:Country_codes<br/>
+EQR Definition        : https://www.researchgate.net/publication/236586038_WATER_FRAMEWORK_DIRECTIVE__Marine_Ecological_Tools_for_Reference_Intercalibration_and_Classifi_cation_METRIC/figures?lo=1<br/>
+EQR Definition (Full) : https://publications.jrc.ec.europa.eu/repository/bitstream/JRC36757/6757%20-%20Deliverable_10_1%200recc.pdf<br/>
 
 These repository contain 5 main files:
 1. EQR_Classification.ipynb (First Main File)
