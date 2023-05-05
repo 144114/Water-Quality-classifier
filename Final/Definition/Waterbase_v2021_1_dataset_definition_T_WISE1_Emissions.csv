@@ -1,0 +1,33 @@
+﻿Element name,Element definition,Value definitions
+spatialUnitIdentifier,Unique international identifier of the spatial unit for which the data is being reported.,http://dd.eionet.europa.eu/vocabulary/wise/SpatialUnit/
+spatialUnitIdentifierScheme,"Specification of whether the spatial unit is a country ('countryCode'), a Water Framework Directive river basin district ('euRBDCode') or a Water Framework Directive sub-unit ('euSubUnitCode'). For data providers that do not report under the WFD, spatial units equivalent to river basin districts ('eionetRBDCode') or sub-units ('eionetSubUnitCode') should be used.",http://dd.eionet.europa.eu/vocabulary/wise/IdentifierScheme/
+phenomenonTimeReferencePeriod,The year or range of years to which the data applies.,
+observedPropertyDeterminandCode,"Unique code of the determinand monitored, as defined in the codelist.",http://dd.eionet.europa.eu/vocabulary/wise/ObservedProperty/
+observedPropertyDeterminandLabel,Name of the determinand.,
+parameterEmissionsSourceCategory,See the code list values for a definition of each category. ,http://dd.eionet.europa.eu/vocabulary/wise/EmissionsSourceCategory/
+parameterEPRTRfacilities,Information if the Emission value is aggregated from E-PRTR Facilities or from non-E-PRTR Facilities or from both together. See codelist for details.,"both: Emission value includes emissions from both E-PRTR and non-E-PRTR Facilities;
+no: Emission value includes emissions from non-E-PRTR Facilities only;
+yes: Emission value includes emissions from E-PRTR Facilities only"
+resultEmissionsValue,"Annual emission of nutrients (tonne/year), organic matter (tonne/year) or hazardous substances (kg/year) from a specific source of emissions, aggregated by spatial unit.",
+resultEmissionsUom,Unit of measure for the reported emission value.,http://dd.eionet.europa.eu/vocabulary/aq/UomEmissions/
+procedureEmissionsMethod,Method used in the quantification of the emissions value.,"calculated: Point sources only - Values of emissions are based on calculations;
+estimated: Point and diffuse sources - Values of emissions are based on non-standardised estimations;
+measured: Point sources only - Values of emissions are based on measurements;
+modelled: Diffuse sources only - Values of emissions are based on model results"
+resultObservationStatus,"Status of the observed value in terms of its availability, relevancy, correctness or specifics of its source category.","A: Record is confirmed as correct;
+L: Missing observed value, the data were not collected;
+M: Missing observed value, the data can not exist;
+N: Missing observed value, observed value is not relevant or not significant;
+O: Missing observed value, no further information is available;
+W: Missing observed value, data are included in another source category;
+X: Reported value includes data from another source category (categories);
+Y: The source category does not exactly match the standard definition;
+Z: Record reported in the past should be deleted"
+Remarks,"Remarks, comments or explanatory notes.",
+metadata_versionId,Unique metadata identifier of version of the feature or record. Url that points either to the source of the reported data or to a page providing information on the data origin.,
+metadata_beginLifeSpanVersion,Timestamp when the feature or record was created. In case of reported data it's the release date and time of the respective CDR envelope.,
+metadata_statusCode,Status of the feature or record regarding its registration.,"valid: accepted and valid reported feature or record;
+experimental: derived feature or record, e.g. legacy record converted to the new structure by EEA or records with updated spatial identifiers "
+metadata_observationStatus,,
+metadata_statements,Aditional information or statements regarding the reliability of the feature or record.,
+UID,Unique identifier of the record in the EEA WISE_SOE database.,
