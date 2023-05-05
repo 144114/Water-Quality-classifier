@@ -1,0 +1,35 @@
+﻿Element name,Element definition,Value definitions
+CountryCode,Abbreviation of EEA Member or Collaborating Country.,
+observedPropertyDeterminandBiologyEQRCode,"Determinand code for biological metrics, as defined in the vocabulary.",http://dd.eionet.europa.eu/vocabulary/wise/ObservedPropertyBiologyEQR/
+parameterWaterBodyCategory,"Water body category code, as defined in the codelist.",http://dd.eionet.europa.eu/vocabulary/wise/WFDWaterBodyCategory/
+parameterNCSWaterBodyType,Type of water body as defined by the member state.,
+parameterWFDIntercalibrationWaterBodyType,Type of water body as defined by the WFD Intercalibration process.,http://dd.eionet.europa.eu/vocabulary/wise/WFDIntercalibrationType/
+parameterNaturalAWBHMWB,"Specification of whether a water body is identified as natural, artificial (AWB) or heavily modified (HMWB). AWBs are surface water bodies which have been created in a location where no water body existed before and which have not been created by the direct physical alteration, movement or realignment of an existing water body. HMWB are bodies of water which as a result of physical alterations by human activity are substantially changed in character and cannot, therefore, meet ""good ecological status"" (GES). In this context physical alterations mean changes to e.g. the size, slope, discharge, form and shape of river bed of a water body.","AWB: Artificial water body;
+HMWB:  Heavily modified water body;
+Natural:  Natural water body"
+parameterICStatusOfDeterminandBiologyEQR,Flag indicating whether the biological determinand has been intercalibrated.,"0: false;
+1: true"
+parameterBoundaryValueClasses12,"Boundary between High and Good ecological status or potential classes, for a given biological determinand and water body type.",
+parameterBoundaryValueClasses23,"Boundary between Good and Moderate ecological status or potential classes, for a given biological determinand and water body type.",
+parameterBoundaryValueClasses34,"Boundary between Moderate and Poor ecological status or potential classes, for a given biological determinand and water body type.",
+parameterBoundaryValueClasses45,"Boundary between Poor and Bad ecological status or potential classes, for a given biological determinand and water body type.",
+procedureBiologicalAnalyticalMethodDescription,Description of the biological analytical method,
+resultObservationStatus,"Status of the observed value in terms of its availability, relevancy, correctness or specifics of its source category.","A: Record is confirmed as correct;
+L: Missing observed value, the data were not collected;
+M: Missing observed value, the data can not exist;
+N: Missing observed value, observed value is not relevant or not significant;
+O: Missing observed value, no further information is available or record reported in the past should be deleted;
+W: Missing observed value, data are included in another source category;
+X: Reported value includes data from another source category (categories);
+Y: The source category does not exactly match the standard definition"
+Remarks,"Remarks, comments or explanatory notes.",
+metadata_versionId,Unique metadata identifier of version of the feature or record. Url that points either to the source of the reported data or to a page providing information on the data origin.,
+metadata_beginLifeSpanVersion,Timestamp when feature or record was created. In case of reported data it's the release date and time of the respective CDR envelope.,
+metadata_statusCode,Status of the feature or record regarding its registration.,"valid: accepted and valid reported feature or record;
+stable: accepted and valid reported record, confirmed by the reporter as correct;
+experimental: derived feature or record, e.g. legacy record converted to the new structure by EEA or records with updated spatial identifiers "
+metadata_observationStatus,Status of the record regarding its reliability.,"A: Normal record;
+U: Record with lower reliability;
+V: Unvalidated record"
+metadata_statements,Aditional information or statements regarding the reliability of the feature or record.,
+UID,Unique identifier of the record in the EEA WISE_SOE database.,

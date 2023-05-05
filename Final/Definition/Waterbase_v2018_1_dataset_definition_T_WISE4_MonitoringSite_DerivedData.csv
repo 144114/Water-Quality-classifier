@@ -1,0 +1,13 @@
+﻿Element name,Element definition,Value definitions
+monitoringSiteIdentifier,Unique international identifier of the monitoring site.,
+monitoringSiteIdentifierScheme,Specification of whether the monitoring site is a WFD monitoring site ('euMonitoringSiteCode') or not ('eionetMonitoringSiteCode').,"eionetMonitoringSiteCode: EIONET identifier;
+euMonitoringSiteCode: WFD identifier "
+waterBodyIdentifier,Unique international identifier of the water body being monitored.,
+waterBodyIdentifierScheme,Specification of whether the water body is a WFD water body ('euGroundwaterBodyCode' or 'euSurfaceWaterBodyCode') or not ('eionetGroundwaterBodyCode' or 'eionetSurfaceWaterBodyCode').,"eionetGroundwaterBodyCode: Groundwater body identifier is an EIONET identifier;
+eionetSurfaceWaterBodyCode: Surface water body identifier is an EIONET identifier;
+euGroundwaterBodyCode: Groundwater body identifier is a WFD identifier;
+euSurfaceWaterBodyCode: Surface water body identifier is a WFD identifier"
+confidentialityStatus,Information about the sensitivity and confidentiality status of the monitoring site location.,"F: Free for publication;
+N: Not for publication"
+lon,Longitude of the monitoring site. It is not provided for monitoring sites where publication is restricted.,
+lat,Latitude of the monitoring site. It is not provided for monitoring sites where publication is restricted.,

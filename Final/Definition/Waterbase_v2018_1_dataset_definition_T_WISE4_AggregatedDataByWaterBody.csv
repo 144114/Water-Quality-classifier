@@ -1,0 +1,57 @@
+﻿Element name,Element definition,Value definitions
+waterBodyIdentifier,Unique international identifier of the water body in which the data were obtained.,
+waterBodyIdentifierScheme,Specification of whether the water body is a WFD water body ('euGroundwaterBodyCode' or 'euSurfaceWaterBodyCode') or not ('eionetGroundwaterBodyCode' or 'eionetSurfaceWaterBodyCode').,"eionetGroundwaterBodyCode: Groundwater body identifier is an EIONET identifier;
+eionetSurfaceWaterBodyCode: Surface water body identifier is an EIONET identifier;
+euGroundwaterBodyCode: Groundwater body identifier is a WFD identifier;
+euSurfaceWaterBodyCode: Surface water body identifier is a WFD identifier"
+parameterWaterBodyCategory,"Water body category code, as defined in the codelist.",http://dd.eionet.europa.eu/vocabulary/wise/WFDWaterBodyCategory/
+observedPropertyDeterminandCode,"Unique code of the determinand monitored, as defined in the codelist.",http://dd.eionet.europa.eu/vocabulary/wise/ObservedProperty/
+procedureAnalysedFraction,Specification of which fraction of the sample was analysed.,"dissolved: Dissolved (filtered) sample was analysed;
+SPM: Suspended particulate matter of the sample was analysed;
+total: Total (unfiltered) sample was analysed"
+procedureAnalysedMedia,Type of media monitored.,"biota: biota;
+sediment: sediment;
+water: water"
+resultUom,Unit of measure for the reported values.,http://dd.eionet.europa.eu/vocabulary/wise/uom/
+phenomenonTimeReferenceYear,Year during which the data were sampled.,
+parameterSamplingPeriod,The period of the year during which the data used for the aggregation were sampled.,
+procedureLOQValue,The smallest concentration that can be distinguished from the analytical blank at a chosen level of statistical confidence (usually 95%).,
+resultNumberOfSamples,Number of sample values included in the aggregated data.,
+resultQualityNumberOfSamplesBelowLOQ,Number of sample values below LOQ included in the aggregated data.,
+resultQualityMinimumBelowLOQ,Flag to indicate whether the minimum sample value used for the aggregation was below the analytical limit of quantification (LOQ).,"0: false;
+1: true"
+resultMinimumValue,Minimum sample value of the data used for aggregation.,
+resultQualityMeanBelowLOQ,Flag to indicate whether the mean value is below the highest LOQ.,"0: false;
+1: true"
+resultMeanValue,Mean value of the data used for aggregation.,
+resultQualityMaximumBelowLOQ,Flag to indicate whether the maximum sample value used for the aggregation was below the analytical limit of quantification (LOQ).,"0: false;
+1: true"
+resultMaximumValue,Maximum sample value of the data used for aggregation.,
+resultQualityMedianBelowLOQ,Flag to indicate whether the median value is below the highest LOQ.,"0: false;
+1: true"
+resultMedianValue,Median value of the data used for aggregation.,
+resultStandardDeviationValue,Standard deviation value of the data used for aggregation.,
+resultNumberOfSitesClass1,Number of monitoring sites with annual average concentration of the given determinand within Class 1 boundaries.,
+resultNumberOfSitesClass2,Number of monitoring sites with annual average concentration of the given determinand within Class 2 boundaries.,
+resultNumberOfSitesClass3,Number of monitoring sites with annual average concentration of the given determinand within Class 3 boundaries.,
+resultNumberOfSitesClass4,Number of monitoring sites with annual average concentration of the given determinand within Class 4 boundaries.,
+resultNumberOfSitesClass5,Number of monitoring sites with annual average concentration of the given determinand within Class 5 boundaries.,
+resultObservationStatus,"Status of the observed value in terms of its availability, relevancy, correctness or specifics of its source category.","A: Record is confirmed as correct;
+L: Missing observed value, the data were not collected;
+M: Missing observed value, the data can not exist;
+N: Missing observed value, observed value is not relevant or not significant;
+O: Missing observed value, no further information is available or record reported in the past should be deleted;
+W: Missing observed value, data are included in another source category;
+X: Reported value includes data from another source category (categories);
+Y: The source category does not exactly match the standard definition"
+Remarks,"Remarks, comments or explanatory notes.",
+metadata_versionId,Unique metadata identifier of version of the feature or record. Url that points either to the source of the reported data or to a page providing information on the data origin.,
+metadata_beginLifeSpanVersion,Timestamp when feature or record was created. In case of reported data it's the release date and time of the respective CDR envelope.,
+metadata_statusCode,Status of the feature or record regarding its registration.,"valid: accepted and valid reported feature or record;
+stable: accepted and valid reported record, confirmed by the reporter as correct;
+experimental: derived feature or record, e.g. legacy record converted to the new structure by EEA or records with updated spatial identifiers "
+metadata_observationStatus,Status of the record regarding its reliability.,"A: Normal record;
+U: Record with lower reliability;
+V: Unvalidated record"
+metadata_statements,Aditional information or statements regarding the reliability of the feature or record.,
+UID,Unique identifier of the record in the EEA WISE_SOE database.,
